@@ -1,0 +1,31 @@
+{
+  "name": "AdvancedReact",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/VVoev/AdvancedReact.git",
+  "author": "vladovoev@yahoo.co.uk <vladovoev@yahoo.co.uk>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec babel-node lib/server.js"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.9.1"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
